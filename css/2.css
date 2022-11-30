@@ -1,0 +1,413 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+body{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 3006px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.name{
+    top: 40px;
+    left: 360px;
+    width: 274px;
+    height: 190px;
+    /* UI Properties */
+    text-align: left;
+    font-family: SF Pro Text, Regular;
+    font:normal normal normal 80px/95px SF Pro Text;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 80px;
+    margin-bottom: 24px;
+    margin-left: 360px;
+}
+.Line1{
+    top: 254px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #000000;
+    opacity: 1;
+    margin-left: 360px;
+}
+.picture{
+    top: 302px;
+    left: 360px;
+    width: 324px;
+    height: 324px;
+    /* UI Properties */
+    background: transparent url('img/photo-1536180931879-fd2d652efddc.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 48px;
+    margin-left: 360px;
+}
+.inform1{
+    display: flex;
+    margin-left: 360px;
+}
+.informA{
+    top: 674px;
+    left: 360px;
+    width: 128px;
+    height: 48px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 32px;
+    margin-top: 48px;
+    margin-bottom: 8px;  
+}
+.informB{
+    top: 680px;
+    left: 504px;
+    width: 101px;
+    height: 36px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 SF Pro Text;
+    font-size: 32px;
+    letter-spacing: 0px;
+    color: #A00404;
+    opacity: 1;
+    margin-left: 16px;
+    margin-top: 54px;
+    margin-bottom: 14px;
+}
+.Line2{
+    top: 730px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    /* UI Properties */
+    border: 1px solid #000000;
+    opacity: 1;
+    margin-left: 360px;
+}
+.informC{
+    top: 746px;
+    left: 360px;
+    width: 439px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 16px;
+    margin-left: 360px;
+}
+.informC2{
+    top: 746px;
+    left: 360px;
+    width: 439px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 360px;
+
+}
+.informC3{
+    top: 746px;
+    left: 360px;
+    width: 500px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 360px;
+}
+.informD{
+    top: 878px;
+    left: 360px;
+    width: 696px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 24px;
+    margin-left: 360px;
+}
+.informD2{
+    top: 878px;
+    left: 360px;
+    width: 696px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 360px;
+}
+.informD3{
+    top: 878px;
+    left: 360px;
+    width: 696px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 360px;
+}
+.informE{
+    top: 1050px;
+    left: 360px;
+    width: 64px;
+
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 32px;
+    margin-top: 64px;
+    margin-bottom: 8px;
+    margin-left: 360px;
+}
+.informF{
+    top: 1056px;
+    left: 440px;
+    width: 143px;
+
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #A00404;
+    opacity: 1;
+    margin-top: 70px;
+    margin-bottom: 14px;
+    margin-left: 16px;
+}
+.inform3{
+    display: flex;
+}
+.informG{
+    top: 1122px;
+    left: 360px;
+    width: 603px;
+
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 16px;
+    margin-left: 360px;
+}
+.informH{
+    top: 1174px;
+    left: 360px;
+    width: 422px;
+    height: 36px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 16px;
+    margin-bottom: 64px;
+    margin-left: 360px;
+}
+.Rectangle2{
+    top: 1274px;
+    left: 0px;
+    width: 1920px;
+    height: 460px;
+    /* UI Properties */
+    background: #415165 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.skills1{
+    top: 1298px;
+    left: 882px;
+    width: 64px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.skills2{
+    top: 1304px;
+    left: 962px;
+    width: 84px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 36px;
+    margin-left: 16px;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+.inside1{
+    display: flex;
+    justify-content: center;
+}
+
+.Line3{
+    top: 1354px;
+    left: 462px;
+    width: 996px;
+    height: 0px;
+    /* UI Properties */
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+    justify-content: center;
+    margin-left: 462px;
+}
+.text1{
+    top: 1394px;
+    left: 876px;
+    width: 200px;
+    height: 36px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-left: 1px;
+    justify-content: center;
+    border-left:1px solid #96A9C4;
+    margin-left: 360px;
+
+}
+.informwork{
+    margin-top: 64px;
+    margin-bottom: 14px;
+    display: flex;
+}
+.informworkC{
+    top: 1798px;
+    left: 360px;
+    width: 128px;
+    height: 48px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 32px;
+    margin-left: 360px;
+
+}
+.informworkE{
+    top: 1804px;
+    left: 504px;
+    width: 500px;
+    height: 36px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #A00404;
+    opacity: 1;
+    font-size: 24px;
+    margin-left: 16px;
+}
+.informworktextA{
+    top: 1870px;
+    left: 408px;
+    width: 509px;
+    height: 36px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 24px;
+    margin-left: 360px;
+    margin-top: 24px;
+    line-height: 36px;
+}
+.informworktextB{
+    top: 2006px;
+    left: 408px;
+    width: 642px;
+    height: 150px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 20px/30px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 360px;    
+}
+

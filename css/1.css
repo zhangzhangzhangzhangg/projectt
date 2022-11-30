@@ -1,0 +1,230 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 3006px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.joanne{
+    top: 40px;
+    left: 360px;
+    width: 274px;
+    height: 190px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 80px/95px SF Pro Text;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 80px;
+}
+.Line1{
+    top: 254px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #000000;
+    opacity: 1;
+}
+
+.picture{
+    top: 302px;
+    left: 360px;
+    width: 324px;
+    height: 324px;
+    /* UI Properties */
+    background: transparent url('img/photo-1536180931879-fd2d652efddc.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 48px;
+}
+.inform1{
+    display: flex;
+}
+.informA{
+    top: 674px;
+    left: 360px;
+    width: 128px;
+    height: 48px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    font-size: 32px;
+    margin-top: 48px;
+}
+.informB{
+    top: 680px;
+    left: 504px;
+    width: 101px;
+    height: 36px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 SF Pro Text;
+    font-size: 32px;
+    letter-spacing: 0px;
+    color: #A00404;
+    opacity: 1;
+    margin-left: 16px;
+    margin-top: 54px;
+}
+.inside1 .informB{
+    margin-left: 16px;
+
+}
+.Line2{
+    /*top: 254px;
+    left: 360px;*/
+    width: 1200px;
+    height: 0px;
+    /* UI Properties */
+    border: 1px solid #000000;
+    opacity: 1;
+}
+.informC{
+    top: 746px;
+    left: 360px;
+    width: 439px;
+    height: 108px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.informD{
+    top: 878px;
+    left: 360px;
+    width: 696px;
+    height: 108px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-top: 24px;
+}
+.Rectangle2{
+    top: 1274px;
+    left: 0px;
+    width: 1920px;
+    height: 460px;
+    /* UI Properties */
+    background: #415165 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.inside1 h1, h2{
+    display: flex;
+    text-align: center;
+}
+.skills1{
+    top: 1298px;
+    left: 882px;
+    width: 64px;
+    height: 48px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 32px/48px PingFang TC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    
+}
+.skills2{
+    top: 1304px;
+    left: 962px;
+    width: 84px;
+    height: 36px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 600 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.Line3{
+    /*top: 254px;
+    left: 360px;*/
+    width: 1200px;
+    height: 0px;
+    /* UI Properties */
+    border: 1px solid #ffffff;
+    opacity: 1;
+}
+.text1{
+    top: 1394px;
+    left: 876px;
+    width: 200px;
+    height: 36px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 24px/36px SF Pro Text;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-left: 1px;
+    
+}
+.Rectangle3{
+    top: 2606px;
+    left: 0px;
+    width: 1920px;
+    height: 400px;
+    /* UI Properties */
+    background: #415165 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    justify-content: center;
+    border-color: #96A9C4;
+    
+}
+
